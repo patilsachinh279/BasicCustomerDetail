@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj": {}
+    "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj": {}
   },
   "projects": {
-    "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj": {
+    "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj",
+        "projectUniqueName": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj",
         "projectName": "Customer.Business.Tests",
-        "projectPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj",
+        "projectPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business.Tests\\Customer.Business.Tests.csproj",
         "packagesPath": "C:\\Users\\SP34850\\.nuget\\packages\\",
-        "outputPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business.Tests\\obj\\",
+        "outputPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SP34850\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj": {
-                "projectPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj"
+              "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj": {
+                "projectPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj": {
+    "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj",
+        "projectUniqueName": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj",
         "projectName": "Customer.Business",
-        "projectPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj",
+        "projectPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business\\Customer.Business\\Customer.Business.csproj",
         "packagesPath": "C:\\Users\\SP34850\\.nuget\\packages\\",
-        "outputPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\Customer\\Customer.Business\\Customer.Business\\obj\\",
+        "outputPath": "C:\\My Data\\Scan Docs\\Study Data\\POC\\SourceFuse\\Assignment\\GitRepository\\Customer\\Customer.Business\\Customer.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SP34850\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,6 +138,10 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",

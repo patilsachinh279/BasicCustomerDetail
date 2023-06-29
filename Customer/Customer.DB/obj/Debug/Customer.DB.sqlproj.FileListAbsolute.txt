@@ -1,0 +1,6 @@
+C:\My Data\Scan Docs\Study Data\POC\SourceFuse\Assignment\GitRepository\Customer\Customer.DB\bin\Debug\Customer.DB.dacpac
+C:\My Data\Scan Docs\Study Data\POC\SourceFuse\Assignment\GitRepository\Customer\Customer.DB\bin\Debug\Customer.DB.dll
+C:\My Data\Scan Docs\Study Data\POC\SourceFuse\Assignment\GitRepository\Customer\Customer.DB\bin\Debug\Customer.DB.pdb
+C:\My Data\Scan Docs\Study Data\POC\SourceFuse\Assignment\GitRepository\Customer\Customer.DB\obj\Debug\Customer.DB.sqlproj.AssemblyReference.cache
+C:\My Data\Scan Docs\Study Data\POC\SourceFuse\Assignment\GitRepository\Customer\Customer.DB\obj\Debug\Customer.DB.dll
+C:\My Data\Scan Docs\Study Data\POC\SourceFuse\Assignment\GitRepository\Customer\Customer.DB\obj\Debug\Customer.DB.pdb

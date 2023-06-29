@@ -18,21 +18,26 @@ namespace Customer.Business.Data.DAL
         SqlDataAdapter DA = new SqlDataAdapter();
         SqlCommandBuilder CB;
         DataTable DT;
+        const string connectionString = "ConnectionString";
 
         public DataAccessLayer(IConfiguration configuration)
         {
             _configuration= configuration;
         }
 
-        public string DatabaseConnectionString =>
-            _configuration.GetConnectionString("DbContext");
-
         public SqlConnection OpenConnection()
         {
-            //TODO: Connection sring from appsetting.json file
-            Conn = new SqlConnection("data source=IND-L490;initial catalog=Customer;MultipleActiveResultSets=True;Trusted_Connection=True;TrustServerCertificate=True");
+            var config = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json", false)
+                    .Build();
+
+            var connectionString = config.GetConnectionString("CustomerContext");
+
+            Conn = new SqlConnection(connectionString);
             return Conn;
         }
+
+        
 
         public DataTable GetDataFromStoredProcedure(string procedureName, List<InputParam> inputParams = null)
         {
